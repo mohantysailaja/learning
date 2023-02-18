@@ -30,6 +30,12 @@ public class test {
         if (x > y) {
             System.out.println("x is greater than y");
         }
+        int time = 20;
+        if (time < 18) {
+            System.out.println("Good day.");
+        } else {
+            System.out.println("Good evening.");
+        }
         return 0;
     }
 
