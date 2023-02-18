@@ -21,6 +21,9 @@ public class test {
         if (a < 4) {
             return 4;
         }
+        if (a < 10) {
+            return 56;
+        }
 
         return 0;
     }
